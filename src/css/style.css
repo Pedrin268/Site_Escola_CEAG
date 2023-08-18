@@ -1,7 +1,98 @@
-header{
-    background-color: #B7F9FF;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
 }
 
 body{
-    background-color:  #00DFE3;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho {
+    background-color: gray;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 5%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.escola-imagem{
+    width: 25%;
+}
+
+.escola{
+    background-image: linear-gradient(#424E61,#16CFF8);
+/*    background-image: url(/src/img/escola/frente_escola.jpg); */
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.escola-div-conteudo{
+    width: 35%;
+}
+
+.escola-titulo{
+    padding: 24px 0;
+}
+
+.estudante-imagem{
+    width: 120px;
+}
+
+.estudante-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.estudante-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.estudante-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.estudante-todos{
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15%;
+}
+/*
+body {
+    background-image: url("/src/img/escola/frente_escola.jpg");
+    background-repeat: no-repeat; define a imagem para cobrir todo o background
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+*/
+
+/* Copyright */
+.rodapé__copy {
+    display: block;
+    text-align: center;
+    font-size: var(--smaller-font-size);
+    margin-top: 1rem;
+  }
+
+.rodapé__copy {
+    margin-top: 3rem;
 }
